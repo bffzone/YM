@@ -10,7 +10,6 @@ motor
 psutil
 pytube
 pyrotgfork
-pykeyboard
 py-tgcalls
 python-dotenv
 pyyaml
@@ -24,4 +23,5 @@ gunicorn
 youtube-search-python
 yt-dlp
 git+https://github.com/Vivekkumar-IN/yt-dlp-youtube-oauth2
+git+https://github.com/Vivekkumar-IN/pykeyboard
 git+https://github.com/TelegramPlayGround/pyrogram-tgcrypto
