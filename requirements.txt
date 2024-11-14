@@ -9,8 +9,8 @@ lyricsgenius
 motor
 psutil
 pytube
-pykeyboard
 pyrotgfork
+pykeyboard
 py-tgcalls
 python-dotenv
 pyyaml
