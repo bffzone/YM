@@ -12,7 +12,7 @@ pytube
 pyrotgfork
 py-tgcalls
 python-dotenv
-pyyaml
+pyyaml==5.3.1
 requests
 speedtest-cli
 spotipy
