@@ -19,17 +19,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "21911172"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "22fee9fa813e7254521310ae5fe000d2")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5799143538:AAEM8rJroptBKoB4hd347pL_JlGG0wzQAEY")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ghoda:loda@cluster0.fgrpret.mongodb.net/?retryWrites=true&w=majority")
 
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "5")
@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/TheTeamVivek/Extra-Plugin",
+    "https://github.com/Mr-Sakil/Extra-Plugin",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -70,12 +70,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "")
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "loveislife7478")
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("OWNER_ID", "6024212623").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -88,7 +88,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheTeamVivek/YukkiMusic",
+    "https://github.com/Mr-Sakil/YM",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -101,10 +101,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TheTeamVivek"
+    "SUPPORT_CHANNEL", "https://t.me/Vip_Sakil_Bio"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheTeamVk"
+    "SUPPORT_GROUP", "https://t.me/FellingThroughShayari"
 )  # Example:- https://t.me/TheTeamVk
 
 
@@ -129,7 +129,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TheTeamVivek/YukkiMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/Vip_Sakil_Bio")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -169,7 +169,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", None).split(",")))
+STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", "BQFENi0AxFFbe2V9wiPansr7gMyr2Zvxa-Qb81wvkXpykTadSYFP-e5okDPejzcqKEfk-HYxju2uHDKptC-CkNx-5WPffCoqwbNq_zrIu2wfUwVtYhu57gkRI5UksOfLVLIcKtwbgUR9ROArD1SL6ibvBMFXc5wc_jPJOuO61HGswHZAFfUqZy5A-nWYWKlFU9N-8RUsslrdZehLRg9vNlwHZ5xqF67ab-i9wfdMwTabwDG4CfJI-WJ5Aq8mkqA2256tdWCh55IdFEicimWsOPa4L4S6d0rfESVMDfftKryo861MlNOny9XEdmsUbHAygGMfeen19Gvs5QlQO6uc1FHOu65jJAAAAAFjRZcLAA").split(",")))
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____
@@ -199,12 +199,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg",  # This is the file id of the photo you can also put the url of photo
+    "https://envs.sh/IAC.jpg",  # This is the file id of the photo you can also put the url of photo
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -214,12 +214,12 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://telegra.ph/file/de1db74efac1770b1e8e9.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -229,37 +229,37 @@ TELEGRAM_AUDIO_URL = getenv(
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://telegra.ph/file/8d02ff3bde400e465219a.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://envs.sh/nAw.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://envs.sh/nAD.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://envs.sh/npl.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://envs.sh/nA9.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://envs.sh/nps.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg",
+    "https://envs.sh/IAC.jpg",
 )
 
 
